@@ -1,0 +1,417 @@
+/* ==================== BREAKPOINTS ==================== */
+
+
+/* ----- X-Large devices (large desktops, 1200px and up) ----- */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+     :root {
+        --container-width: 1200px;
+    }
+    .container {
+        max-width: var(--container-width);
+    }
+    .banner .banner-content .title {
+        font-size: 60px;
+    }
+    .banner-thumbnail img {
+        margin-left: 0;
+    }
+    li.shape.shape-1 {
+        left: -70px;
+    }
+    li.shape.shape-2 img {
+        width: 80%;
+        height: auto;
+    }
+    .section-heading .title {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1350px) {
+     :root {
+        --container-width: 1140px;
+    }
+    .container {
+        max-width: var(--container-width);
+    }
+}
+
+
+/* ----- Large devices (desktops, 992px and up) ----- */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+     :root {
+        --container-width: 960px;
+    }
+    .container {
+        max-width: var(--container-width);
+    }
+    .banner .banner-content .title {
+        font-size: 60px;
+    }
+    .banner-thumbnail img {
+        margin-left: 0px;
+    }
+    li.shape.shape-1 {
+        left: -70px;
+    }
+    li.shape.shape-2 img {
+        width: 65%;
+        height: auto;
+    }
+    .section-heading .title {
+        width: 100%;
+    }
+    .single-project .content .title {
+        font-size: 36px;
+    }
+    .testimonials .followers-list li a i {
+        margin-right: 10px;
+    }
+    .contact .contact-form-box .title {
+        font-size: 32px;
+    }
+}
+
+
+/* ----- Medium devices (tablets, 768px and up) ----- */
+
+@media (min-width: 768px) and (max-width: 991px) {
+     :root {
+        --container-width: 760px;
+    }
+    .container {
+        max-width: var(--container-width);
+    }
+    .btn-primary,
+    .btn-contact {
+        padding: 20px 35px;
+    }
+    .banner {
+        padding: 200px 0 140px;
+    }
+    .banner .banner-content .title {
+        font-size: 60px;
+    }
+    .banner .banner-box .banner-content {
+        width: 100%;
+    }
+    .banner .banner-box .banner-thumbnail {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .banner-thumbnail img {
+        margin-left: 0px;
+    }
+    .my_switcher {
+        display: none;
+    }
+    .my_switcher.menu {
+        display: block;
+    }
+    li.shape.shape-1 {
+        left: -70px;
+    }
+    li.shape.shape-2 img {
+        display: none;
+    }
+    li.shape.shape-9 {
+        display: none;
+    }
+    li.shape.shape-11 {
+        display: none;
+    }
+    .section-heading .title {
+        width: 100%;
+        font-size: 50px;
+    }
+    .section-heading p {
+        width: 100%;
+        font-size: 16px;
+    }
+    .single-project .content .title {
+        font-size: 36px;
+    }
+    .single-project .content {
+        top: 30px;
+        left: 30px;
+    }
+    .brands .brands-wrapper {
+        text-align: center;
+    }
+    .brands .brands-wrapper .brand-grid {
+        flex-basis: 50%;
+    }
+    .testimonials .testimonials-wrapper .testimonial-grid {
+        flex-basis: 100%;
+        margin: 0 0px;
+    }
+    .testimonials .followers-list li a span {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .contact .contact-top,
+    .contact .contact-form-box {
+        flex-basis: 100%;
+        margin: 0;
+    }
+    .contact .section-heading {
+        margin-bottom: 80px;
+    }
+    .contact .contact-form-box .title {
+        font-size: 32px;
+    }
+}
+
+
+/* ----- Small devices (landscape phones, 576px and up) ----- */
+
+@media (min-width: 576px) and (max-width: 767px) {
+     :root {
+        --container-width: 540px;
+    }
+    .container {
+        max-width: var(--container-width);
+    }
+    .btn-primary,
+    .btn-contact {
+        padding: 20px 35px;
+    }
+    .banner {
+        padding: 200px 0 100px;
+    }
+    .banner .banner-content .title {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .banner .banner-box .banner-content {
+        width: 100%;
+    }
+    .banner .banner-box .banner-thumbnail {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .banner-thumbnail img {
+        margin-left: 0px;
+    }
+    .my_switcher {
+        display: none;
+    }
+    .my_switcher.menu {
+        display: block;
+        margin-left: 10px;
+    }
+    li.shape.shape-1 {
+        left: -10px;
+    }
+    li.shape.shape-1 img {
+        width: 80%;
+    }
+    li.shape.shape-2 img {
+        display: none;
+    }
+    .shape.shape-8 {
+        top: 146px;
+        right: 660px;
+    }
+    li.shape.shape-9 {
+        display: none;
+    }
+    li.shape.shape-11 {
+        display: none;
+    }
+    .section-heading .title {
+        width: 100%;
+        font-size: 50px;
+    }
+    .section-heading p {
+        width: 100%;
+        font-size: 16px;
+    }
+    .single-project .content .title {
+        font-size: 36px;
+    }
+    .single-project .content {
+        top: 30px;
+        left: 30px;
+    }
+    .projects-wrapper .single-project {
+        flex-basis: 100%;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .brands .brands-wrapper {
+        text-align: center;
+    }
+    .brands .brands-wrapper .brand-grid {
+        flex-basis: 50%;
+    }
+    .testimonials .testimonials-wrapper .testimonial-grid {
+        flex-basis: 100%;
+        margin: 0 0px;
+    }
+    .testimonials .followers-list {
+        margin-top: 60px;
+    }
+    .testimonials .followers-list li a span {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .contact .contact-top,
+    .contact .contact-form-box {
+        flex-basis: 100%;
+        margin: 0;
+    }
+    .contact .section-heading {
+        margin-bottom: 80px;
+    }
+    .contact .contact-form-box .title {
+        font-size: 32px;
+    }
+    .footer-area .footer-bottom .left,
+    .footer-area .footer-bottom .right {
+        flex-basis: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+}
+
+
+/* ----- X-Small devices (portrait phones, less than 576px) ----- */
+
+@media (max-width: 575px) {
+     :root {
+        --container-width: 100%;
+    }
+    .container {
+        max-width: var(--container-width);
+        padding: 0 15px;
+    }
+    header.header {
+        padding: 25px 0;
+    }
+    .btn-group {
+        flex-direction: column;
+    }
+    .banner .btn-group .btn {
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+    .btn-primary,
+    .btn-contact {
+        padding: 20px 35px;
+        display: block;
+    }
+    li.header-social-link {
+        display: none;
+    }
+    .banner {
+        padding: 200px 0 100px;
+    }
+    .banner .banner-content .title {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .banner .banner-box .banner-content {
+        width: 100%;
+    }
+    .banner .banner-box .banner-thumbnail {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .banner-thumbnail img {
+        margin-left: 0px;
+    }
+    .my_switcher {
+        display: none;
+    }
+    .my_switcher.menu {
+        display: block;
+        margin-left: 10px;
+    }
+    li.shape.shape-1 {
+        left: -10px;
+        top: 45px;
+    }
+    li.shape.shape-1 img {
+        width: 80%;
+    }
+    li.shape.shape-2 img {
+        display: none;
+    }
+    .shape.shape-8 {
+        top: 146px;
+        right: 660px;
+    }
+    li.shape.shape-9 {
+        display: none;
+    }
+    li.shape.shape-11 {
+        display: none;
+    }
+    .section-heading .title {
+        width: 100%;
+        font-size: 34px;
+    }
+    .section-heading p {
+        width: 100%;
+        font-size: 16px;
+    }
+    .single-project .content .title {
+        font-size: 36px;
+    }
+    .single-project .content {
+        top: 30px;
+        left: 30px;
+    }
+    .projects-wrapper .single-project {
+        flex-basis: 100%;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .brands .brands-wrapper {
+        text-align: center;
+    }
+    .brands .brands-wrapper .brand-grid {
+        flex-basis: 50%;
+    }
+    .testimonials .testimonials-wrapper .testimonial-grid {
+        flex-basis: 100%;
+        margin: 0 0px;
+    }
+    .testimonials .followers-list li a span {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .contact .contact-top,
+    .contact .contact-form-box {
+        flex-basis: 100%;
+        margin: 0;
+    }
+    .contact .section-heading {
+        margin-bottom: 80px;
+    }
+    .contact .contact-form-box .title {
+        font-size: 32px;
+    }
+    .footer-area .footer-bottom .left,
+    .footer-area .footer-bottom .right {
+        flex-basis: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .testimonials .followers-list {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .testimonials .followers-list li {
+        margin: 20px 0;
+    }
+}

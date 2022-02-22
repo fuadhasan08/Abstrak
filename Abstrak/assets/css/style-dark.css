@@ -1,0 +1,123 @@
+/* ==================== DARK MODE ==================== */
+
+.active-dark-mode {
+    --dark-main-body: #212121;
+    --dark-bg-color: var(--color-dark);
+    --dark-body-text: #D3D3D4;
+    --dark-title-light: #D3D3D4;
+    --dark-solid-btn: var(--color-ghost);
+    --dark-border-gray: var(--color-body);
+}
+
+body.active-dark-mode {
+    background: var(--dark-main-body);
+}
+
+.active-dark-mode header.header.sticky {
+    background-color: var(--dark-bg-color);
+}
+
+.active-dark-mode .header ul.social-icon-list li a {
+    color: var(--dark-body-text);
+}
+
+.active-dark-mode .header .light-version-logo {
+    display: none;
+}
+
+.active-dark-mode .header .dark-version-logo {
+    display: block;
+}
+
+.active-dark-mode .header .sticky-logo {
+    display: none !important;
+}
+
+.active-dark-mode .banner li.shape.shape-1 img {
+    opacity: 0.2;
+}
+
+.active-dark-mode .banner .banner-content .subtitle {
+    color: var(--dark-body-text);
+}
+
+.active-dark-mode .banner .banner-content .title {
+    color: var(--dark-body-text);
+}
+
+.active-dark-mode .banner .banner-content .btn.btn-primary {
+    box-shadow: none;
+}
+
+.active-dark-mode .header .sidemenu-btn .btn-wrap {
+    background-color: #464646;
+}
+
+.active-dark-mode .header .sidemenu-btn .btn-wrap span {
+    background: var(--dark-title-light);
+}
+
+.active-dark-mode .section-heading .title {
+    color: var(--dark-title-light);
+}
+
+.active-dark-mode .section-heading p {
+    color: var(--dark-body-text);
+}
+
+.active-dark-mode .testimonial-grid p {
+    color: var(--dark-body-text);
+}
+
+.active-dark-mode .testimonial-grid p {
+    color: var(--dark-body-text);
+}
+
+.active-dark-mode .testimonial-grid .author-info .content .name {
+    color: var(--dark-title-light);
+}
+
+.active-dark-mode .testimonials .followers-list li a span {
+    color: var(--dark-body-text);
+}
+
+.active-dark-mode .contact .contact-form-box {
+    background-color: var(--dark-main-body);
+}
+
+.active-dark-mode .contact .contact-form-box .title {
+    color: var(--dark-title-light)
+}
+
+.active-dark-mode .form-group label {
+    color: var(--dark-body-text);
+}
+
+.active-dark-mode input::placeholder,
+.active-dark-mode .form-control::placeholder {
+    color: var(--dark-body-text);
+    border-color: var(--dark-border-gray);
+}
+
+.active-dark-mode input,
+.active-dark-mode .form-control {
+    color: var(--dark-body-text);
+    border-color: var(--dark-border-gray);
+}
+
+.active-dark-mode .footer-area .footer-bottom .left .footer-copyright .copyright-text a,
+.active-dark-mode .footer-area .footer-bottom .left .footer-copyright .copyright-text,
+.active-dark-mode .footer-area .footer-bottom .right .footer-bottom-link ul li a {
+    color: var(--dark-body-text);
+}
+
+.active-dark-mode .footer-area .footer-bottom .right .footer-bottom-link ul li a:hover {
+    color: var(--color-primary);
+}
+
+.active-dark-mode input:focus,
+.active-dark-mode .form-control:focus {
+    box-shadow: none;
+    border-color: transparent;
+    background-color: #171717;
+}
